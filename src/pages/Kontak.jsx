@@ -1,14 +1,15 @@
-import Section from "../components/Section";
-import ContactForm from "../components/ContactForm";
+import Section from '../components/Section';
+import ContactForm from '../components/ContactForm';
 
 export default function Kontak() {
   return (
-    <Section title="Hubungi Kami" className="bg-[#F5F0E6]">
-      <p className="text-center text-[#555] mb-10 max-w-md mx-auto">
-        Ada pertanyaan tentang produk atau kolaborasi? Kirim pesan kamu lewat
-        form di bawah ini, kami akan membalas secepatnya.
-      </p>
-      <ContactForm />
-    </Section>
+    <div className="space-y-8 pb-12 max-w-3xl mx-auto px-4">
+      <Section title="Hubungi Kami">
+        <p className="text-gray-600 text-center max-w-xl mx-auto mb-6">
+          Punya pertanyaan, saran, atau ingin berkolaborasi dengan EcoArchive? Silakan isi formulir di bawah ini.
+        </p>
+        <ContactForm />
+      </Section>
+    </div>
   );
 }
